@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Graphql inspection",
+			"type": "vscode-edge-devtools.debug",
+			"request": "launch",
+			"url": "http://localhost:8000/___graphql"
+		},
+		{
+			"name": "Launch Microsoft Edge and open the Edge DevTools",
+			"request": "launch",
+			"type": "vscode-edge-devtools.debug",
+			"url": "http://localhost:8000"
+		}
+	]
+}
